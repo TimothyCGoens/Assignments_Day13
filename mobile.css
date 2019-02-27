@@ -1,0 +1,13 @@
+#main-menu {
+    display: flex;
+    flex-direction: column;
+}
+
+#ad img {
+    display: none;
+}
+
+#articles {
+    display: flex;
+    flex-direction: column;
+}

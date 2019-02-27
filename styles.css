@@ -1,0 +1,50 @@
+
+#container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#main-menu {
+    display: flex;
+    background-color: black;
+    color: white;
+    list-style: none;
+
+}
+
+#main-menu li {
+    padding: 20px;
+}
+
+#ad {
+    display: flex;
+    justify-content: center;
+}
+
+#ad img {
+    width: 95%;
+    height: 75px;
+}
+
+.articles {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.articles div {
+    width: 200px;
+    margin: 10px;
+}
+
+.articles img {
+    height: 200px;
+    width: 100%;
+}
+
+.articles p {
+    text-align: center;
+}
